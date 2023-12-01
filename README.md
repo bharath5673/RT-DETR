@@ -42,7 +42,7 @@ pip install torch ultralytics opencv numpy
 ### Usage
 
 1. Provide the video path in the code.
-2. set [track=False] if dont want to track objects else ignore..
+2. set [track=False] on line 97, if dont want to track objects else ignore..
 3. Run the script.
 4. View the results. 
 
