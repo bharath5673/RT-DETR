@@ -106,7 +106,7 @@ while True:
 
     cv2.putText(frame, fps, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 1, cv2.LINE_AA)
 
-    cv2.imshow("yolo", frame)
+    cv2.imshow("rt-detr", frame)
     out.write(frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
